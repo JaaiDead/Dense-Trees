@@ -208,7 +208,7 @@ public class DenseTreeFeatures {
 		return createStraightBlobTree(DenseRegistry.DENSE_BIRCH_LOG.get(), Blocks.BIRCH_LEAVES, 5, 2, 6, 2).ignoreVines();
 	}
 
-	private static TreeConfiguration.TreeConfigurationBuilder createJungleTree() {
+	private static TreeConfigration.TreeConfigurationBuilder createJungleTree() {
 		return createStraightBlobTree(DenseRegistry.DENSE_JUNGLE_LOG.get(), Blocks.JUNGLE_LEAVES, 4, 8, 0, 2);
 	}
 
